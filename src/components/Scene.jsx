@@ -14,7 +14,7 @@ const Scene = ({click}) => {
       {/* <ScrollControls pages={2}> */}
         <Experience click={click} />
       {/* </ScrollControls> */}
-      <OrbitControls enableZoom={false}  />
+      {/* <OrbitControls enableZoom={false}  /> */}
       <Environment
         files={
           "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/studio_small_09_1k.hdr"
