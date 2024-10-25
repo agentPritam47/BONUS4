@@ -14,7 +14,7 @@ const Experience = ({click}) => {
     rot = 2
   } else {
     pos = -0.1
-    rot = 1.95
+    rot = 1.92
   }
   useFrame(() => {
     const scrollValue = scrollYProgress.get(); 
