@@ -28,7 +28,7 @@ const App = () => {
               <h1 className="gr-txt font-medium text-8xl tracking-tighter mt-10 sm:mt-0 sm:text-left text-center font-[clc]">
                 ROLEX
               </h1>
-              <p className="font-[pr] text-sm sm:w-[50%] mt-7 leading-relaxed text-center sm:text-left">
+              <p className="font-[pr] text-xs sm:text-sm sm:w-[50%] mt-7 leading-relaxed text-center sm:text-left">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
                 nesciunt tempora adipisci aliquid eos.
               </p>
