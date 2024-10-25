@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: clc;
+    src: url(/fonts/Cinzel/Cinzel-Regular.otf);
+}
+@font-face {
+    font-family: pr;
+    src: url(/fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf);
+}
+
+.gr-txt {
+    background: linear-gradient(to bottom, #444444, #ababab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+
