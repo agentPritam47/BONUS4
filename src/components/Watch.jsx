@@ -53,11 +53,11 @@ export function Watch({click,...props}) {
       duration: 1,
     })
     gsap.to(minutes.current.rotation,{
-      y: click ? 3.14 : 0,
+      y: click ? 3.14 : 0.5,
       duration: 1.5,
     })
     gsap.to(nums.current.position,{
-      y: click ? 1 : 0,
+      y: click ? 1 : 0.5,
       duration: 1,
     })
     
