@@ -57,8 +57,8 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="h-screen w-full absolute pointer-events-none">
-        <button onClick={()=>setclick(!click)} className=" pointer-events-auto px-5 py-3 bg-zinc-300 text-black font-[clc] rounded-xl relative top-[80%] left-1/2 -translate-x-1/2 -translate-y-1/2">Interact</button>
+      <div className="h-screen w-full absolute">
+        <button onClick={()=>setclick(!click)} className=" px-5 py-3 bg-zinc-300 text-black font-[clc] rounded-xl relative top-[80%] left-1/2 -translate-x-1/2 -translate-y-1/2">Interact</button>
       </div>
     </div>
   );
