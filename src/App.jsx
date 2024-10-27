@@ -5,7 +5,7 @@ import LocomotiveScroll from "locomotive-scroll";
 
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
-  const [click, setclick] = useState(false)
+  const [click, setclick] = useState(false);
   return (
     <div className="h-[200vh] w-full">
       <nav className=" fixed z-10 py-5 w-full top-0 left-0 flex justify-between px-10">
@@ -57,8 +57,26 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="h-screen w-full absolute">
-        <button onClick={()=>setclick(!click)} className=" px-5 py-3 bg-zinc-300 text-black font-[clc] rounded-xl relative top-[80%] left-1/2 -translate-x-1/2 -translate-y-1/2">Interact</button>
+      <div className="h-screen w-full absolute flex p-10 justify-between">
+        <div className="w-1/2 h-full sm:block hidden">
+          <h1 className="font-[clc] text-5xl mt-[13vw] uppercase">
+            Specifcation
+          </h1>
+          <div className=" text-lg mt-8 flex flex-col gap-3 font-[pr]">
+            <p>Water-resistant</p>
+            <p> Durable </p>
+            <p> Automatic </p>
+            <p> Luxurious </p>
+            <p> Chronometer</p>
+          </div>
+        </div>
+        {/* <div className="w-1/2 h-full "></div> */}
+        <button
+          onClick={() => setclick(!click)}
+          className=" px-5 py-3 bg-zinc-300 text-black font-[clc] rounded-xl absolute top-[80%] left-1/2 -translate-x-1/2 -translate-y-1/2"
+        >
+          Interact
+        </button>
       </div>
     </div>
   );
